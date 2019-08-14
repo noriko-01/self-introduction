@@ -6,7 +6,7 @@ body{
 
 }
 header{
-  background-color: pink;
+
   text-align:right;
   padding-right: 10px;
   background-image:
@@ -14,6 +14,7 @@ header{
   height: 400px;
   background-size: cover;
   background-position: 50% 50%;
+  margin-bottom: 60px
 
 
 }
@@ -37,9 +38,85 @@ header li> a:hover{
   color: royalblue;
 }
 
+.current{
+  border-bottom: 4px solid royalblue;
+}
+
 section{
   text-align: center;
 }
 section h1{
   font-weight: normal;
+  margin-bottom: 8px;
+}
+
+section p{
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.icon{
+  /* border-radius: 30px; */
+  /* border-radius: 70px; */
+
+  border-radius: 50%;
+  /* border-color:pink;
+  border-width: 5px;
+  border-style: solid; */
+  border: :10px solid white;
+/* box-shadow: x y blur color */
+/* box-shadow: 10px 10px 5px black; */
+box-shadow: 0 0 5px gray;
+
+
+
+}
+
+
+.n1{
+  margin: 0;
+  list-style-type: none;
+}
+
+.work1{
+  width: 400px;
+  margin:60px auto;
+  border-bottom: 1px solid gray;
+}
+
+.work1>section{
+  margin-bottom: 40px;
+
+}
+footer{
+  width: 400px;
+  margin: 0 auto 60px;
+}
+
+
+
+footer>img:hover {
+  opacity:0.6;
+}
+footer>img{
+  float: left;
+}
+
+footer>p {
+  color: lightgray;
+  font-size: 14px;
+  text-align: right;
+}
+
+section{
+  text-align: center;
+}
+section h1{
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+
+section ps{
+  margin-top: 0;
+  font-size: 14px;
 }
